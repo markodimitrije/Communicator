@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		ADDB33FC224FCCD500608571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB33FB224FCCD500608571 /* AppDelegate.swift */; };
-		ADDB33FE224FCCD500608571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB33FD224FCCD500608571 /* ViewController.swift */; };
 		ADDB3401224FCCD500608571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB33FF224FCCD500608571 /* Main.storyboard */; };
-		ADDB3403224FCCD700608571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDB3402224FCCD700608571 /* Assets.xcassets */; };
 		ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB3404224FCCD700608571 /* LaunchScreen.storyboard */; };
+		ADDB3410224FCEF600608571 /* GroupsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB340F224FCEF600608571 /* GroupsCVC.swift */; };
+		ADDB3412224FD8AE00608571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDB3411224FD8AE00608571 /* Assets.xcassets */; };
+		ADDB3414224FE84400608571 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB3413224FE84400608571 /* ItemCell.swift */; };
+		ADDB3416224FEB7800608571 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB3415224FEB7800608571 /* Model.swift */; };
+		ADDB3419224FEB9800608571 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB3418224FEB9800608571 /* Data.swift */; };
+		ADDB341B224FEE3E00608571 /* ItemsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB341A224FEE3E00608571 /* ItemsCVC.swift */; };
+		ADDB341E224FF03C00608571 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB341D224FF03C00608571 /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADDB33F8224FCCD500608571 /* MyEnvironment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEnvironment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDB33FB224FCCD500608571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADDB33FD224FCCD500608571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADDB3400224FCCD500608571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADDB3402224FCCD700608571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADDB3405224FCCD700608571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADDB3407224FCCD700608571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDB340F224FCEF600608571 /* GroupsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCVC.swift; sourceTree = "<group>"; };
+		ADDB3411224FD8AE00608571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADDB3413224FE84400608571 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		ADDB3415224FEB7800608571 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ADDB3418224FEB9800608571 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		ADDB341A224FEE3E00608571 /* ItemsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCVC.swift; sourceTree = "<group>"; };
+		ADDB341D224FF03C00608571 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		ADDB33FA224FCCD500608571 /* MyEnvironment */ = {
 			isa = PBXGroup;
 			children = (
+				ADDB341C224FF03300608571 /* Global */,
+				ADDB3413224FE84400608571 /* ItemCell.swift */,
 				ADDB33FB224FCCD500608571 /* AppDelegate.swift */,
-				ADDB33FD224FCCD500608571 /* ViewController.swift */,
 				ADDB33FF224FCCD500608571 /* Main.storyboard */,
-				ADDB3402224FCCD700608571 /* Assets.xcassets */,
+				ADDB340F224FCEF600608571 /* GroupsCVC.swift */,
+				ADDB341A224FEE3E00608571 /* ItemsCVC.swift */,
+				ADDB3417224FEB8E00608571 /* Model */,
+				ADDB3411224FD8AE00608571 /* Assets.xcassets */,
 				ADDB3404224FCCD700608571 /* LaunchScreen.storyboard */,
 				ADDB3407224FCCD700608571 /* Info.plist */,
 			);
 			path = MyEnvironment;
+			sourceTree = "<group>";
+		};
+		ADDB3417224FEB8E00608571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB3415224FEB7800608571 /* Model.swift */,
+				ADDB3418224FEB9800608571 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADDB341C224FF03300608571 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB341D224FF03C00608571 /* Global.swift */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */,
-				ADDB3403224FCCD700608571 /* Assets.xcassets in Resources */,
+				ADDB3412224FD8AE00608571 /* Assets.xcassets in Resources */,
 				ADDB3401224FCCD500608571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADDB33FE224FCCD500608571 /* ViewController.swift in Sources */,
+				ADDB3410224FCEF600608571 /* GroupsCVC.swift in Sources */,
+				ADDB3419224FEB9800608571 /* Data.swift in Sources */,
 				ADDB33FC224FCCD500608571 /* AppDelegate.swift in Sources */,
+				ADDB341B224FEE3E00608571 /* ItemsCVC.swift in Sources */,
+				ADDB3414224FE84400608571 /* ItemCell.swift in Sources */,
+				ADDB3416224FEB7800608571 /* Model.swift in Sources */,
+				ADDB341E224FF03C00608571 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
