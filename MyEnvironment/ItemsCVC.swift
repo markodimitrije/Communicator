@@ -44,4 +44,8 @@ class ItemsCVC: UICollectionViewController {
         return cell
     }
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        playSound(name: items[indexPath.item].name)
+    }
+    
 }

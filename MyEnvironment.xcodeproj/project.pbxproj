@@ -17,6 +17,31 @@
 		ADDB3419224FEB9800608571 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB3418224FEB9800608571 /* Data.swift */; };
 		ADDB341B224FEE3E00608571 /* ItemsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB341A224FEE3E00608571 /* ItemsCVC.swift */; };
 		ADDB341E224FF03C00608571 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB341D224FF03C00608571 /* Global.swift */; };
+		ADDB34212250AF4700608571 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB34202250AF4700608571 /* SoundManager.swift */; };
+		ADDB343F2250BBFA00608571 /* Animals.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34262250BBFA00608571 /* Animals.m4a */; };
+		ADDB34402250BBFA00608571 /* Rewards.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34272250BBFA00608571 /* Rewards.m4a */; };
+		ADDB34412250BBFA00608571 /* Clothes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34282250BBFA00608571 /* Clothes.m4a */; };
+		ADDB34422250BBFA00608571 /* Shapes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34292250BBFA00608571 /* Shapes.m4a */; };
+		ADDB34432250BBFA00608571 /* Bathroom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB342A2250BBFA00608571 /* Bathroom.m4a */; };
+		ADDB34442250BBFA00608571 /* Things.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB342B2250BBFA00608571 /* Things.m4a */; };
+		ADDB34452250BBFA00608571 /* Activities.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB342C2250BBFA00608571 /* Activities.m4a */; };
+		ADDB34462250BBFA00608571 /* Food.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB342D2250BBFA00608571 /* Food.m4a */; };
+		ADDB34472250BBFA00608571 /* Shoes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB342E2250BBFA00608571 /* Shoes.m4a */; };
+		ADDB34482250BBFA00608571 /* Drinks.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB342F2250BBFA00608571 /* Drinks.m4a */; };
+		ADDB34492250BBFA00608571 /* Schoolequipment.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34302250BBFA00608571 /* Schoolequipment.m4a */; };
+		ADDB344A2250BBFA00608571 /* Kitchen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34312250BBFA00608571 /* Kitchen.m4a */; };
+		ADDB344B2250BBFA00608571 /* cookies.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34332250BBFA00608571 /* cookies.m4a */; };
+		ADDB344C2250BBFA00608571 /* cake.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34342250BBFA00608571 /* cake.m4a */; };
+		ADDB344D2250BBFA00608571 /* popcorn.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34352250BBFA00608571 /* popcorn.m4a */; };
+		ADDB344E2250BBFA00608571 /* meat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34362250BBFA00608571 /* meat.m4a */; };
+		ADDB344F2250BBFA00608571 /* smoki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34372250BBFA00608571 /* smoki.m4a */; };
+		ADDB34502250BBFA00608571 /* spagetthi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34382250BBFA00608571 /* spagetthi.m4a */; };
+		ADDB34512250BBFA00608571 /* apple.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34392250BBFA00608571 /* apple.m4a */; };
+		ADDB34522250BBFA00608571 /* soup.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB343A2250BBFA00608571 /* soup.m4a */; };
+		ADDB34532250BBFA00608571 /* chocolate.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB343B2250BBFA00608571 /* chocolate.m4a */; };
+		ADDB34542250BBFA00608571 /* sandwich.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB343C2250BBFA00608571 /* sandwich.m4a */; };
+		ADDB34552250BBFA00608571 /* frenchfries.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB343D2250BBFA00608571 /* frenchfries.m4a */; };
+		ADDB34562250BBFA00608571 /* banana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB343E2250BBFA00608571 /* banana.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +57,31 @@
 		ADDB3418224FEB9800608571 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		ADDB341A224FEE3E00608571 /* ItemsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCVC.swift; sourceTree = "<group>"; };
 		ADDB341D224FF03C00608571 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		ADDB34202250AF4700608571 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		ADDB34262250BBFA00608571 /* Animals.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Animals.m4a; sourceTree = "<group>"; };
+		ADDB34272250BBFA00608571 /* Rewards.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rewards.m4a; sourceTree = "<group>"; };
+		ADDB34282250BBFA00608571 /* Clothes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clothes.m4a; sourceTree = "<group>"; };
+		ADDB34292250BBFA00608571 /* Shapes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shapes.m4a; sourceTree = "<group>"; };
+		ADDB342A2250BBFA00608571 /* Bathroom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bathroom.m4a; sourceTree = "<group>"; };
+		ADDB342B2250BBFA00608571 /* Things.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Things.m4a; sourceTree = "<group>"; };
+		ADDB342C2250BBFA00608571 /* Activities.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Activities.m4a; sourceTree = "<group>"; };
+		ADDB342D2250BBFA00608571 /* Food.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Food.m4a; sourceTree = "<group>"; };
+		ADDB342E2250BBFA00608571 /* Shoes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shoes.m4a; sourceTree = "<group>"; };
+		ADDB342F2250BBFA00608571 /* Drinks.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drinks.m4a; sourceTree = "<group>"; };
+		ADDB34302250BBFA00608571 /* Schoolequipment.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Schoolequipment.m4a; sourceTree = "<group>"; };
+		ADDB34312250BBFA00608571 /* Kitchen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kitchen.m4a; sourceTree = "<group>"; };
+		ADDB34332250BBFA00608571 /* cookies.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cookies.m4a; sourceTree = "<group>"; };
+		ADDB34342250BBFA00608571 /* cake.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cake.m4a; sourceTree = "<group>"; };
+		ADDB34352250BBFA00608571 /* popcorn.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = popcorn.m4a; sourceTree = "<group>"; };
+		ADDB34362250BBFA00608571 /* meat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meat.m4a; sourceTree = "<group>"; };
+		ADDB34372250BBFA00608571 /* smoki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = smoki.m4a; sourceTree = "<group>"; };
+		ADDB34382250BBFA00608571 /* spagetthi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = spagetthi.m4a; sourceTree = "<group>"; };
+		ADDB34392250BBFA00608571 /* apple.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = apple.m4a; sourceTree = "<group>"; };
+		ADDB343A2250BBFA00608571 /* soup.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = soup.m4a; sourceTree = "<group>"; };
+		ADDB343B2250BBFA00608571 /* chocolate.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = chocolate.m4a; sourceTree = "<group>"; };
+		ADDB343C2250BBFA00608571 /* sandwich.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sandwich.m4a; sourceTree = "<group>"; };
+		ADDB343D2250BBFA00608571 /* frenchfries.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = frenchfries.m4a; sourceTree = "<group>"; };
+		ADDB343E2250BBFA00608571 /* banana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = banana.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +114,16 @@
 		ADDB33FA224FCCD500608571 /* MyEnvironment */ = {
 			isa = PBXGroup;
 			children = (
+				ADDB34242250BBE800608571 /* Sounds_Assets */,
+				ADDB341F2250AF3900608571 /* Sound */,
 				ADDB341C224FF03300608571 /* Global */,
 				ADDB3413224FE84400608571 /* ItemCell.swift */,
 				ADDB33FB224FCCD500608571 /* AppDelegate.swift */,
 				ADDB33FF224FCCD500608571 /* Main.storyboard */,
+				ADDB3411224FD8AE00608571 /* Assets.xcassets */,
 				ADDB340F224FCEF600608571 /* GroupsCVC.swift */,
 				ADDB341A224FEE3E00608571 /* ItemsCVC.swift */,
 				ADDB3417224FEB8E00608571 /* Model */,
-				ADDB3411224FD8AE00608571 /* Assets.xcassets */,
 				ADDB3404224FCCD700608571 /* LaunchScreen.storyboard */,
 				ADDB3407224FCCD700608571 /* Info.plist */,
 			);
@@ -93,6 +145,61 @@
 				ADDB341D224FF03C00608571 /* Global.swift */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		ADDB341F2250AF3900608571 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB34202250AF4700608571 /* SoundManager.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		ADDB34242250BBE800608571 /* Sounds_Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB34322250BBFA00608571 /* Food */,
+				ADDB34252250BBFA00608571 /* Groups */,
+			);
+			path = Sounds_Assets;
+			sourceTree = "<group>";
+		};
+		ADDB34252250BBFA00608571 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB34262250BBFA00608571 /* Animals.m4a */,
+				ADDB34272250BBFA00608571 /* Rewards.m4a */,
+				ADDB34282250BBFA00608571 /* Clothes.m4a */,
+				ADDB34292250BBFA00608571 /* Shapes.m4a */,
+				ADDB342A2250BBFA00608571 /* Bathroom.m4a */,
+				ADDB342B2250BBFA00608571 /* Things.m4a */,
+				ADDB342C2250BBFA00608571 /* Activities.m4a */,
+				ADDB342D2250BBFA00608571 /* Food.m4a */,
+				ADDB342E2250BBFA00608571 /* Shoes.m4a */,
+				ADDB342F2250BBFA00608571 /* Drinks.m4a */,
+				ADDB34302250BBFA00608571 /* Schoolequipment.m4a */,
+				ADDB34312250BBFA00608571 /* Kitchen.m4a */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		ADDB34322250BBFA00608571 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB34332250BBFA00608571 /* cookies.m4a */,
+				ADDB34342250BBFA00608571 /* cake.m4a */,
+				ADDB34352250BBFA00608571 /* popcorn.m4a */,
+				ADDB34362250BBFA00608571 /* meat.m4a */,
+				ADDB34372250BBFA00608571 /* smoki.m4a */,
+				ADDB34382250BBFA00608571 /* spagetthi.m4a */,
+				ADDB34392250BBFA00608571 /* apple.m4a */,
+				ADDB343A2250BBFA00608571 /* soup.m4a */,
+				ADDB343B2250BBFA00608571 /* chocolate.m4a */,
+				ADDB343C2250BBFA00608571 /* sandwich.m4a */,
+				ADDB343D2250BBFA00608571 /* frenchfries.m4a */,
+				ADDB343E2250BBFA00608571 /* banana.m4a */,
+			);
+			path = Food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,9 +260,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDB34552250BBFA00608571 /* frenchfries.m4a in Resources */,
+				ADDB34502250BBFA00608571 /* spagetthi.m4a in Resources */,
+				ADDB343F2250BBFA00608571 /* Animals.m4a in Resources */,
+				ADDB344A2250BBFA00608571 /* Kitchen.m4a in Resources */,
+				ADDB344B2250BBFA00608571 /* cookies.m4a in Resources */,
+				ADDB344E2250BBFA00608571 /* meat.m4a in Resources */,
+				ADDB344F2250BBFA00608571 /* smoki.m4a in Resources */,
+				ADDB34432250BBFA00608571 /* Bathroom.m4a in Resources */,
+				ADDB34522250BBFA00608571 /* soup.m4a in Resources */,
+				ADDB34402250BBFA00608571 /* Rewards.m4a in Resources */,
+				ADDB34532250BBFA00608571 /* chocolate.m4a in Resources */,
+				ADDB34562250BBFA00608571 /* banana.m4a in Resources */,
+				ADDB34442250BBFA00608571 /* Things.m4a in Resources */,
+				ADDB34492250BBFA00608571 /* Schoolequipment.m4a in Resources */,
+				ADDB34412250BBFA00608571 /* Clothes.m4a in Resources */,
+				ADDB344D2250BBFA00608571 /* popcorn.m4a in Resources */,
 				ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */,
+				ADDB34452250BBFA00608571 /* Activities.m4a in Resources */,
+				ADDB344C2250BBFA00608571 /* cake.m4a in Resources */,
+				ADDB34482250BBFA00608571 /* Drinks.m4a in Resources */,
+				ADDB34512250BBFA00608571 /* apple.m4a in Resources */,
 				ADDB3412224FD8AE00608571 /* Assets.xcassets in Resources */,
+				ADDB34462250BBFA00608571 /* Food.m4a in Resources */,
+				ADDB34542250BBFA00608571 /* sandwich.m4a in Resources */,
 				ADDB3401224FCCD500608571 /* Main.storyboard in Resources */,
+				ADDB34472250BBFA00608571 /* Shoes.m4a in Resources */,
+				ADDB34422250BBFA00608571 /* Shapes.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADDB3410224FCEF600608571 /* GroupsCVC.swift in Sources */,
+				ADDB34212250AF4700608571 /* SoundManager.swift in Sources */,
 				ADDB3419224FEB9800608571 /* Data.swift in Sources */,
 				ADDB33FC224FCCD500608571 /* AppDelegate.swift in Sources */,
 				ADDB341B224FEE3E00608571 /* ItemsCVC.swift in Sources */,
