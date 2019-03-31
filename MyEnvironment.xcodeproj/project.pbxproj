@@ -11,7 +11,6 @@
 		ADDB3401224FCCD500608571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB33FF224FCCD500608571 /* Main.storyboard */; };
 		ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB3404224FCCD700608571 /* LaunchScreen.storyboard */; };
 		ADDB3410224FCEF600608571 /* GroupsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB340F224FCEF600608571 /* GroupsCVC.swift */; };
-		ADDB3412224FD8AE00608571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDB3411224FD8AE00608571 /* Assets.xcassets */; };
 		ADDB3414224FE84400608571 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB3413224FE84400608571 /* ItemCell.swift */; };
 		ADDB3416224FEB7800608571 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB3415224FEB7800608571 /* Model.swift */; };
 		ADDB3419224FEB9800608571 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB3418224FEB9800608571 /* Data.swift */; };
@@ -42,6 +41,7 @@
 		ADDB34542250BBFA00608571 /* sandwich.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB343C2250BBFA00608571 /* sandwich.m4a */; };
 		ADDB34552250BBFA00608571 /* frenchfries.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB343D2250BBFA00608571 /* frenchfries.m4a */; };
 		ADDB34562250BBFA00608571 /* banana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ADDB343E2250BBFA00608571 /* banana.m4a */; };
+		ADDB34582251212800608571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDB34572251212800608571 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,6 @@
 		ADDB3405224FCCD700608571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADDB3407224FCCD700608571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADDB340F224FCEF600608571 /* GroupsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCVC.swift; sourceTree = "<group>"; };
-		ADDB3411224FD8AE00608571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADDB3413224FE84400608571 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		ADDB3415224FEB7800608571 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		ADDB3418224FEB9800608571 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -82,6 +81,7 @@
 		ADDB343C2250BBFA00608571 /* sandwich.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sandwich.m4a; sourceTree = "<group>"; };
 		ADDB343D2250BBFA00608571 /* frenchfries.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = frenchfries.m4a; sourceTree = "<group>"; };
 		ADDB343E2250BBFA00608571 /* banana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = banana.m4a; sourceTree = "<group>"; };
+		ADDB34572251212800608571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 				ADDB3413224FE84400608571 /* ItemCell.swift */,
 				ADDB33FB224FCCD500608571 /* AppDelegate.swift */,
 				ADDB33FF224FCCD500608571 /* Main.storyboard */,
-				ADDB3411224FD8AE00608571 /* Assets.xcassets */,
 				ADDB340F224FCEF600608571 /* GroupsCVC.swift */,
+				ADDB34572251212800608571 /* Assets.xcassets */,
 				ADDB341A224FEE3E00608571 /* ItemsCVC.swift */,
 				ADDB3417224FEB8E00608571 /* Model */,
 				ADDB3404224FCCD700608571 /* LaunchScreen.storyboard */,
@@ -281,11 +281,11 @@
 				ADDB344C2250BBFA00608571 /* cake.m4a in Resources */,
 				ADDB34482250BBFA00608571 /* Drinks.m4a in Resources */,
 				ADDB34512250BBFA00608571 /* apple.m4a in Resources */,
-				ADDB3412224FD8AE00608571 /* Assets.xcassets in Resources */,
 				ADDB34462250BBFA00608571 /* Food.m4a in Resources */,
 				ADDB34542250BBFA00608571 /* sandwich.m4a in Resources */,
 				ADDB3401224FCCD500608571 /* Main.storyboard in Resources */,
 				ADDB34472250BBFA00608571 /* Shoes.m4a in Resources */,
+				ADDB34582251212800608571 /* Assets.xcassets in Resources */,
 				ADDB34422250BBFA00608571 /* Shapes.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
