@@ -39,12 +39,15 @@ struct RawDataModel {
         "Transport": ["bike", "boat", "bus", "car",
                       "motorbike", "plane", "rollers", "ship",
                       "train", "tram", "trotinet", "truck"],
-        "Activities": ["blowingbubbles", "jumpingonball", "jumpingontrampoline", "musiclistening",
+        "Activities": ["blowingbubbles", "jumpingball", "jumpingontrampoline", "musiclistening",
                        "painting", "playingbasketball", "readingbook", "ridingbike",
                        "ridingrollers", "swimming", "toyplaying", "watchingtv"],
-        "Rewards": ["car", "cartoon", "grisine", "handcream",
+        "Rewards": ["car", "cartoons", "grisine", "handcream",
                     "juice", "jumpingball", "mobilegames", "music",
-                    "plastelin", "popcorn", "scotchtape", "smoki"]
+                    "plastelin", "popcorn", "scotchtape", "smoki"],
+        "Animals": ["dog", "cat", "horse", "rabbit",
+                    "rooster", "chicken", "cow", "goat",
+                    "sheep", "bear", "monkey", "mouse", "bird"]
         
         
     ]
