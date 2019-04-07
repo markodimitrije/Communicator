@@ -45,6 +45,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD0F15D22259EF2B00C06555 /* milk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = milk.m4a; sourceTree = "<group>"; };
+		AD0F15D32259EF2B00C06555 /* yogurt.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yogurt.m4a; sourceTree = "<group>"; };
+		AD0F15D42259EF2B00C06555 /* water.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = water.m4a; sourceTree = "<group>"; };
+		AD0F15D52259EF2B00C06555 /* lemonade.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lemonade.m4a; sourceTree = "<group>"; };
+		AD0F15D62259EF2B00C06555 /* nestea.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nestea.m4a; sourceTree = "<group>"; };
+		AD0F15D72259EF2B00C06555 /* tea.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tea.m4a; sourceTree = "<group>"; };
+		AD0F15D82259EF2B00C06555 /* beer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beer.m4a; sourceTree = "<group>"; };
+		AD0F15D92259EF2C00C06555 /* soda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = soda.m4a; sourceTree = "<group>"; };
+		AD0F15DA2259EF2C00C06555 /* jeuce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jeuce.m4a; sourceTree = "<group>"; };
+		AD0F15DB2259EF2C00C06555 /* orangejeuce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = orangejeuce.m4a; sourceTree = "<group>"; };
+		AD0F15DC2259EF2C00C06555 /* cedevita.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cedevita.m4a; sourceTree = "<group>"; };
+		AD0F15DD2259EF2C00C06555 /* cocacola.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cocacola.m4a; sourceTree = "<group>"; };
+		AD0F15DE2259EF2C00C06555 /* coffie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffie.m4a; sourceTree = "<group>"; };
 		ADDB33F8224FCCD500608571 /* MyEnvironment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEnvironment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDB33FB224FCCD500608571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADDB3400224FCCD500608571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,6 +108,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD0F15D12259EF1600C06555 /* Drinks */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F15D82259EF2B00C06555 /* beer.m4a */,
+				AD0F15DC2259EF2C00C06555 /* cedevita.m4a */,
+				AD0F15DD2259EF2C00C06555 /* cocacola.m4a */,
+				AD0F15DE2259EF2C00C06555 /* coffie.m4a */,
+				AD0F15DA2259EF2C00C06555 /* jeuce.m4a */,
+				AD0F15D52259EF2B00C06555 /* lemonade.m4a */,
+				AD0F15D22259EF2B00C06555 /* milk.m4a */,
+				AD0F15D62259EF2B00C06555 /* nestea.m4a */,
+				AD0F15DB2259EF2C00C06555 /* orangejeuce.m4a */,
+				AD0F15D92259EF2C00C06555 /* soda.m4a */,
+				AD0F15D72259EF2B00C06555 /* tea.m4a */,
+				AD0F15D42259EF2B00C06555 /* water.m4a */,
+				AD0F15D32259EF2B00C06555 /* yogurt.m4a */,
+			);
+			path = Drinks;
+			sourceTree = "<group>";
+		};
 		ADDB33EF224FCCD500608571 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +191,7 @@
 		ADDB34242250BBE800608571 /* Sounds_Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AD0F15D12259EF1600C06555 /* Drinks */,
 				ADDB34322250BBFA00608571 /* Food */,
 				ADDB34252250BBFA00608571 /* Groups */,
 			);
