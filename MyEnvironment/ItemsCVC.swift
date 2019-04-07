@@ -21,6 +21,20 @@ class ItemsCVC: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(screenSwiped))
+        leftSwipe.direction = .left
+        let rightSwipe = UISwipeGestureRecognizer(target: self, action: #selector(screenSwiped))
+        rightSwipe.direction = .right
+        
+        view.addGestureRecognizer(leftSwipe); view.addGestureRecognizer(rightSwipe)
+    }
+    
+    @objc func screenSwiped(_ recognizer: UISwipeGestureRecognizer) {
+        if recognizer.direction == .left {
+            print("Swiped left!")
+        } else {
+            print("Swiped right!")
+        }
     }
     
     // MARK: UICollectionViewDataSource
