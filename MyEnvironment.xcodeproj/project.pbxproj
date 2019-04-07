@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0F15E12259F39100C06555 /* beer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15D82259EF2B00C06555 /* beer.m4a */; };
+		AD0F15E22259F39600C06555 /* cedevita.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15DC2259EF2C00C06555 /* cedevita.m4a */; };
+		AD0F15E32259F39600C06555 /* cocacola.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15DD2259EF2C00C06555 /* cocacola.m4a */; };
+		AD0F15E42259F39600C06555 /* coffie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15DE2259EF2C00C06555 /* coffie.m4a */; };
+		AD0F15E52259F39600C06555 /* nestea.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15E02259F36300C06555 /* nestea.m4a */; };
+		AD0F15E62259F39600C06555 /* jeuce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15DA2259EF2C00C06555 /* jeuce.m4a */; };
+		AD0F15E72259F39600C06555 /* lemonade.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15D52259EF2B00C06555 /* lemonade.m4a */; };
+		AD0F15E82259F39600C06555 /* milk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15D22259EF2B00C06555 /* milk.m4a */; };
+		AD0F15E92259F39600C06555 /* orangejeuce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15DB2259EF2C00C06555 /* orangejeuce.m4a */; };
+		AD0F15EA2259F39600C06555 /* soda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15D92259EF2C00C06555 /* soda.m4a */; };
+		AD0F15EB2259F39600C06555 /* tea.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15D72259EF2B00C06555 /* tea.m4a */; };
+		AD0F15EC2259F39600C06555 /* water.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15D42259EF2B00C06555 /* water.m4a */; };
+		AD0F15ED2259F39600C06555 /* yogurt.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AD0F15D32259EF2B00C06555 /* yogurt.m4a */; };
 		ADDB33FC224FCCD500608571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB33FB224FCCD500608571 /* AppDelegate.swift */; };
 		ADDB3401224FCCD500608571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB33FF224FCCD500608571 /* Main.storyboard */; };
 		ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB3404224FCCD700608571 /* LaunchScreen.storyboard */; };
@@ -49,7 +62,6 @@
 		AD0F15D32259EF2B00C06555 /* yogurt.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yogurt.m4a; sourceTree = "<group>"; };
 		AD0F15D42259EF2B00C06555 /* water.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = water.m4a; sourceTree = "<group>"; };
 		AD0F15D52259EF2B00C06555 /* lemonade.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lemonade.m4a; sourceTree = "<group>"; };
-		AD0F15D62259EF2B00C06555 /* nestea.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nestea.m4a; sourceTree = "<group>"; };
 		AD0F15D72259EF2B00C06555 /* tea.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tea.m4a; sourceTree = "<group>"; };
 		AD0F15D82259EF2B00C06555 /* beer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beer.m4a; sourceTree = "<group>"; };
 		AD0F15D92259EF2C00C06555 /* soda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = soda.m4a; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 		AD0F15DC2259EF2C00C06555 /* cedevita.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cedevita.m4a; sourceTree = "<group>"; };
 		AD0F15DD2259EF2C00C06555 /* cocacola.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cocacola.m4a; sourceTree = "<group>"; };
 		AD0F15DE2259EF2C00C06555 /* coffie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = coffie.m4a; sourceTree = "<group>"; };
+		AD0F15E02259F36300C06555 /* nestea.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nestea.m4a; sourceTree = "<group>"; };
 		ADDB33F8224FCCD500608571 /* MyEnvironment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEnvironment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDB33FB224FCCD500608571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADDB3400224FCCD500608571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -115,10 +128,10 @@
 				AD0F15DC2259EF2C00C06555 /* cedevita.m4a */,
 				AD0F15DD2259EF2C00C06555 /* cocacola.m4a */,
 				AD0F15DE2259EF2C00C06555 /* coffie.m4a */,
+				AD0F15E02259F36300C06555 /* nestea.m4a */,
 				AD0F15DA2259EF2C00C06555 /* jeuce.m4a */,
 				AD0F15D52259EF2B00C06555 /* lemonade.m4a */,
 				AD0F15D22259EF2B00C06555 /* milk.m4a */,
-				AD0F15D62259EF2B00C06555 /* nestea.m4a */,
 				AD0F15DB2259EF2C00C06555 /* orangejeuce.m4a */,
 				AD0F15D92259EF2C00C06555 /* soda.m4a */,
 				AD0F15D72259EF2B00C06555 /* tea.m4a */,
@@ -298,12 +311,16 @@
 				ADDB34502250BBFA00608571 /* spagetthi.m4a in Resources */,
 				ADDB343F2250BBFA00608571 /* Animals.m4a in Resources */,
 				ADDB344A2250BBFA00608571 /* Kitchen.m4a in Resources */,
+				AD0F15ED2259F39600C06555 /* yogurt.m4a in Resources */,
 				ADDB344B2250BBFA00608571 /* cookies.m4a in Resources */,
 				ADDB344E2250BBFA00608571 /* meat.m4a in Resources */,
 				ADDB344F2250BBFA00608571 /* smoki.m4a in Resources */,
 				ADDB34432250BBFA00608571 /* Bathroom.m4a in Resources */,
 				ADDB34522250BBFA00608571 /* soup.m4a in Resources */,
 				ADDB34402250BBFA00608571 /* Rewards.m4a in Resources */,
+				AD0F15E12259F39100C06555 /* beer.m4a in Resources */,
+				AD0F15E32259F39600C06555 /* cocacola.m4a in Resources */,
+				AD0F15E22259F39600C06555 /* cedevita.m4a in Resources */,
 				ADDB34532250BBFA00608571 /* chocolate.m4a in Resources */,
 				ADDB34562250BBFA00608571 /* banana.m4a in Resources */,
 				ADDB34442250BBFA00608571 /* Things.m4a in Resources */,
@@ -312,12 +329,21 @@
 				ADDB344D2250BBFA00608571 /* popcorn.m4a in Resources */,
 				ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */,
 				ADDB34452250BBFA00608571 /* Activities.m4a in Resources */,
+				AD0F15E62259F39600C06555 /* jeuce.m4a in Resources */,
 				ADDB344C2250BBFA00608571 /* cake.m4a in Resources */,
+				AD0F15EB2259F39600C06555 /* tea.m4a in Resources */,
+				AD0F15E92259F39600C06555 /* orangejeuce.m4a in Resources */,
+				AD0F15E82259F39600C06555 /* milk.m4a in Resources */,
 				ADDB34482250BBFA00608571 /* Drinks.m4a in Resources */,
+				AD0F15EA2259F39600C06555 /* soda.m4a in Resources */,
 				ADDB34512250BBFA00608571 /* apple.m4a in Resources */,
 				ADDB34462250BBFA00608571 /* Food.m4a in Resources */,
 				ADDB34542250BBFA00608571 /* sandwich.m4a in Resources */,
+				AD0F15E52259F39600C06555 /* nestea.m4a in Resources */,
+				AD0F15EC2259F39600C06555 /* water.m4a in Resources */,
 				ADDB3401224FCCD500608571 /* Main.storyboard in Resources */,
+				AD0F15E72259F39600C06555 /* lemonade.m4a in Resources */,
+				AD0F15E42259F39600C06555 /* coffie.m4a in Resources */,
 				ADDB34472250BBFA00608571 /* Shoes.m4a in Resources */,
 				ADDB34582251212800608571 /* Assets.xcassets in Resources */,
 				ADDB34422250BBFA00608571 /* Shapes.m4a in Resources */,
@@ -485,7 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UJZMY6T4V6;
+				DEVELOPMENT_TEAM = S26YPRY864;
 				INFOPLIST_FILE = MyEnvironment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -503,7 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UJZMY6T4V6;
+				DEVELOPMENT_TEAM = S26YPRY864;
 				INFOPLIST_FILE = MyEnvironment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
