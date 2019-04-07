@@ -12,10 +12,13 @@ private let reuseIdentifier = "ItemCell"
 
 class ItemsCVC: UICollectionViewController {
     
-    var items = [Item]()
-    var selectedItem: Item! {
+    let dataProvider = DataProvider.init(dataSet: RawDataModel())
+    
+    private var items = [Item]()
+    
+    var selectedIndex: Int! {
         didSet {
-            items = selectedItem.items
+            reloadItems(index: selectedIndex)
         }
     }
     
@@ -30,10 +33,18 @@ class ItemsCVC: UICollectionViewController {
     }
     
     @objc func screenSwiped(_ recognizer: UISwipeGestureRecognizer) {
+        
+        if selectedIndex == 0 && recognizer.direction == .right {
+            return
+        }
+        if selectedIndex == items.count - 1 && recognizer.direction == .left {
+            return
+        }
+        
         if recognizer.direction == .left {
-            print("Swiped left!")
+            selectedIndex += 1
         } else {
-            print("Swiped right!")
+            selectedIndex -= 1
         }
     }
     
@@ -60,6 +71,13 @@ class ItemsCVC: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         playSound(name: items[indexPath.item].name)
+    }
+    
+    private func reloadItems(index: Int) {
+        let groupItem = dataProvider.getGroupItem(atIndex: index)
+        items = dataProvider.getItems(name: groupItem.name)
+        self.collectionView.reloadData()
+        playSound(name: groupItem.name)
     }
     
 }

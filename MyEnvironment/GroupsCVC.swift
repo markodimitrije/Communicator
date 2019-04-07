@@ -51,7 +51,7 @@ class GroupsCVC: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let itemsCVC = mainSB.instantiateViewController(withIdentifier: "ItemsCVC") as? ItemsCVC {
             let item = items[indexPath.row]
-            itemsCVC.selectedItem = item
+            itemsCVC.selectedIndex = indexPath.row
             navigationController?.pushViewController(itemsCVC, animated: true)
             playSound(name: item.name)
         }

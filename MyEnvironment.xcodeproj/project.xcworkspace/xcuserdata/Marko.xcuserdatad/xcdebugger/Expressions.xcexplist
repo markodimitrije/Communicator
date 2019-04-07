@@ -3,6 +3,22 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ItemsCVC.screenSwiped(_:):ItemsCVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsCVC.selectedIndex.didset:ItemsCVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "GroupsCVC.collectionView(_:numberOfItemsInSection:):GroupsCVC.swift">
          <PersistentStrings>
             <PersistentString

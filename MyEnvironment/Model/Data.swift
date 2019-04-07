@@ -10,7 +10,7 @@ import Foundation
 
 struct RawDataModel {
     let groupNames = ["Food", "Clothes", "Shoes", "Drinks",
-                      "Objects", "SchoolEquipment", "Bathroom", "Kitchen",
+                      "Things", "Schoolequipment", "Bathroom", "Kitchen",
                       "Animals", "Transport", "Activities", "Rewards"]
     
     var categories: [String: [String]] = [
@@ -28,11 +28,11 @@ struct RawDataModel {
         
         "Shoes": ["boots", "sandals", "shoes", "sleepers", "sneakers"],
         
-        "Objects": ["backpack", "blanket", "chair", "computer",
+        "Things": ["backpack", "blanket", "chair", "computer",
                     "desk", "hanger", "mirror", "mobile",
                     "pillow", "clipper", "shelf", "tv"],
         
-        "SchoolEquipment": ["acrylicpaint", "backpack", "books", "flomaster",
+        "Schoolequipment": ["acrylicpaint", "backpack", "books", "flomaster",
                             "glue", "notes", "pencil", "pencilbox",
                             "racunaljka", "rubber", "scissors", "sharpener"],
         
