@@ -14,19 +14,22 @@ struct RawDataModel {
                       "Animals", "Transport", "Activities", "Rewards"]
     
     var categories: [String: [String]] = [
-        "Food": ["apple", "banana", "cake", "cookies",
-                 "chocolate", "popcorn", "smoki", "spagetthi",
+        "Food": ["fruits", "jede", "kindermaxi", "cake",
+                 "cookies", "liverpatte", "panceta", "sausage",
+                 "popcorn", "ribice", "apple", "banana",
+                 "chocolate", "smoki", "spagetthi",
                  "soup", "meat", "frenchfries", "sandwich"],
         
-        "Drinks": ["beer", "cedevita", "cocacola", "coffie",
+        "Drinks": ["cockta", "beer", "sparklewater", "soda",
+                   "coffie", "schweppes", "cedevita", "cocacola",
                    "lemonade", "milk", "nestea", "orangejeuce",
-                   "soda", "tea", "water", "yogurt"],
+                   "tea", "water", "yogurt"],
         
         "Clothes": ["cap", "shal", "gloves", "jacket",
                     "pijamas", "pulover", "shirt", "shorts",
                     "socks", "tshirt", "underpants", "pants"],
         
-        "Shoes": ["boots", "sandals", "shoes", "sleepers", "sneakers"],
+        "Shoes": ["boots", "sandals", "cipele", "sleepers", "sneakers"],
         
         "Things": ["backpack", "blanket", "chair", "computer",
                     "desk", "hanger", "mirror", "mobile",

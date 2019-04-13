@@ -11,17 +11,17 @@ import AVFoundation
 
 var soundPlayer: AVAudioPlayer?
 
-func playSound(name: String, ext: String = "m4a") {
+func playSound(name: String, ext: String = "mp3") {
     
-    guard let url = Bundle.main.url(forResource: name, withExtension: ext) else {
-        return
-    }
+    let url = Bundle.main.url(forResource: name, withExtension: ext) ?? Bundle.main.url(forResource: name, withExtension: "m4a")
+    
+    guard url != nil else { return }
     
     do {
         try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
         try AVAudioSession.sharedInstance().setActive(true)
         
-        soundPlayer = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+        soundPlayer = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
         
         guard let player = soundPlayer else { return }
         
