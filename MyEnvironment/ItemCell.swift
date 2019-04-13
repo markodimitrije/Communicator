@@ -11,6 +11,12 @@ import UIKit
 class ItemCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     func update(withItem item: Item) {
-        self.imageView.image = item.image
+        DispatchQueue.global(qos: .background).async { [weak self] in
+            if let fetchImage = UIImage.init(named: item.name) {
+                DispatchQueue.main.async { [weak self] in
+                    self?.imageView.image = fetchImage
+                }
+            }
+        }
     }
 }

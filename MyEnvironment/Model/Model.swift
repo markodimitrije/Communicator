@@ -6,7 +6,7 @@
 //  Copyright © 2019 Marko Dimitrijevic. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 protocol DataProviding {
     func getItems(name: String) -> [Item]
@@ -16,12 +16,10 @@ protocol DataProviding {
 
 struct Item {
     var name = ""
-    var image: UIImage?
     var audioUrl: String?
     var items = [Item]()
     init?(name: String, items: [Item] = [ ]) {
         self.name = name
-        self.image = UIImage(named: name)
         self.audioUrl = name + ".mp3" // implement me...
         self.items = items
     }

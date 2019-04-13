@@ -80,4 +80,8 @@ class ItemsCVC: UICollectionViewController {
         playSound(name: groupItem.name)
     }
     
+    deinit {
+        print("ItemsCVC is deinit")
+    }
+    
 }

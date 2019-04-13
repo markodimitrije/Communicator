@@ -162,6 +162,9 @@
 		7C68404A2262170000F4503F /* fruits.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C6840492262170000F4503F /* fruits.mp3 */; };
 		7C68405222621D3500F4503F /* Shoes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C68405122621D3500F4503F /* Shoes.mp3 */; };
 		7C68405422621D4000F4503F /* cipele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C68405322621D4000F4503F /* cipele.mp3 */; };
+		7C68405722622CF500F4503F /* panceta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C68405522622CF400F4503F /* panceta.mp3 */; };
+		7C68405822622CF500F4503F /* kindermaxi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C68405622622CF400F4503F /* kindermaxi.mp3 */; };
+		7C68405A22622E4F00F4503F /* cockta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C68405922622E4E00F4503F /* cockta.mp3 */; };
 		ADDB33FC224FCCD500608571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB33FB224FCCD500608571 /* AppDelegate.swift */; };
 		ADDB3401224FCCD500608571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB33FF224FCCD500608571 /* Main.storyboard */; };
 		ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDB3404224FCCD700608571 /* LaunchScreen.storyboard */; };
@@ -331,6 +334,9 @@
 		7C6840492262170000F4503F /* fruits.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fruits.mp3; sourceTree = "<group>"; };
 		7C68405122621D3500F4503F /* Shoes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shoes.mp3; sourceTree = "<group>"; };
 		7C68405322621D4000F4503F /* cipele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cipele.mp3; sourceTree = "<group>"; };
+		7C68405522622CF400F4503F /* panceta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = panceta.mp3; sourceTree = "<group>"; };
+		7C68405622622CF400F4503F /* kindermaxi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kindermaxi.mp3; sourceTree = "<group>"; };
+		7C68405922622E4E00F4503F /* cockta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cockta.mp3; sourceTree = "<group>"; };
 		ADDB33F8224FCCD500608571 /* MyEnvironment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEnvironment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDB33FB224FCCD500608571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADDB3400224FCCD500608571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -549,6 +555,7 @@
 				7C683FFE22620DBF00F4503F /* cocta.mp3 */,
 				7C68400222620DC000F4503F /* coffie.mp3 */,
 				7C68400122620DBF00F4503F /* jeuce.mp3 */,
+				7C68405922622E4E00F4503F /* cockta.mp3 */,
 				7C683FFC22620DBF00F4503F /* yogurt.mp3 */,
 				7C684045226211C800F4503F /* beer.mp3 */,
 				7C683FFF22620DBF00F4503F /* milk.mp3 */,
@@ -671,6 +678,8 @@
 				7C6840492262170000F4503F /* fruits.mp3 */,
 				7C6840132262112300F4503F /* spagetthi.m4a */,
 				7C683FE922620D8F00F4503F /* apple.mp3 */,
+				7C68405622622CF400F4503F /* kindermaxi.mp3 */,
+				7C68405522622CF400F4503F /* panceta.mp3 */,
 				7C683FEA22620D8F00F4503F /* banana.mp3 */,
 				7C683FEB22620D8F00F4503F /* cake.mp3 */,
 				7C683FE822620D8E00F4503F /* chocolate.mp3 */,
@@ -783,6 +792,7 @@
 				7C68401022620DC000F4503F /* nestea.mp3 in Resources */,
 				7C683F472261FD2000F4503F /* soap.mp3 in Resources */,
 				7C683F602261FD2000F4503F /* truck.mp3 in Resources */,
+				7C68405722622CF500F4503F /* panceta.mp3 in Resources */,
 				7C683FF122620D8F00F4503F /* chocolate.mp3 in Resources */,
 				ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */,
 				7C683F1A2261FCF500F4503F /* mobile.mp3 in Resources */,
@@ -796,6 +806,7 @@
 				7C683F162261FCF500F4503F /* clipper.mp3 in Resources */,
 				7C683F8D2261FF6600F4503F /* jumpingontrampoline.mp3 in Resources */,
 				7C683F0B2261FCF500F4503F /* books.mp3 in Resources */,
+				7C68405822622CF500F4503F /* kindermaxi.mp3 in Resources */,
 				7C683F652261FD2000F4503F /* car.mp3 in Resources */,
 				7C68400722620DC000F4503F /* cocacola.mp3 in Resources */,
 				7C683EC92261FC9000F4503F /* Clothes.mp3 in Resources */,
@@ -823,6 +834,7 @@
 				7C683ECA2261FC9000F4503F /* Things.mp3 in Resources */,
 				7C6840232262112900F4503F /* cookies.m4a in Resources */,
 				7C683F0E2261FCF500F4503F /* notes.mp3 in Resources */,
+				7C68405A22622E4F00F4503F /* cockta.mp3 in Resources */,
 				7C6840482262166A00F4503F /* sparklewater.mp3 in Resources */,
 				7C683FF022620D8F00F4503F /* meat.mp3 in Resources */,
 				7C683F672261FD2000F4503F /* train.mp3 in Resources */,
