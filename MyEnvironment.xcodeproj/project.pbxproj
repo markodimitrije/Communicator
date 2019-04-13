@@ -153,7 +153,6 @@
 		7C6840202262112900F4503F /* sandwich.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C6840142262112300F4503F /* sandwich.m4a */; };
 		7C6840222262112900F4503F /* soup.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C6840162262112400F4503F /* soup.m4a */; };
 		7C6840232262112900F4503F /* cookies.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C6840172262112500F4503F /* cookies.m4a */; };
-		7C6840242262112900F4503F /* smoki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C6840182262112500F4503F /* smoki.mp3 */; };
 		7C6840282262112900F4503F /* frenchfries.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C68401C2262112700F4503F /* frenchfries.m4a */; };
 		7C68403B2262115200F4503F /* tea.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C68402E2262115100F4503F /* tea.m4a */; };
 		7C68403D2262115200F4503F /* lemonade.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C6840302262115100F4503F /* lemonade.m4a */; };
@@ -323,7 +322,6 @@
 		7C6840142262112300F4503F /* sandwich.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sandwich.m4a; sourceTree = "<group>"; };
 		7C6840162262112400F4503F /* soup.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = soup.m4a; sourceTree = "<group>"; };
 		7C6840172262112500F4503F /* cookies.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cookies.m4a; sourceTree = "<group>"; };
-		7C6840182262112500F4503F /* smoki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smoki.mp3; sourceTree = "<group>"; };
 		7C68401C2262112700F4503F /* frenchfries.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = frenchfries.m4a; sourceTree = "<group>"; };
 		7C68402E2262115100F4503F /* tea.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tea.m4a; sourceTree = "<group>"; };
 		7C6840302262115100F4503F /* lemonade.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lemonade.m4a; sourceTree = "<group>"; };
@@ -669,7 +667,6 @@
 				7C6840172262112500F4503F /* cookies.m4a */,
 				7C68401C2262112700F4503F /* frenchfries.m4a */,
 				7C6840142262112300F4503F /* sandwich.m4a */,
-				7C6840182262112500F4503F /* smoki.mp3 */,
 				7C6840162262112400F4503F /* soup.m4a */,
 				7C6840492262170000F4503F /* fruits.mp3 */,
 				7C6840132262112300F4503F /* spagetthi.m4a */,
@@ -789,7 +786,6 @@
 				7C683FF122620D8F00F4503F /* chocolate.mp3 in Resources */,
 				ADDB3406224FCCD700608571 /* LaunchScreen.storyboard in Resources */,
 				7C683F1A2261FCF500F4503F /* mobile.mp3 in Resources */,
-				7C6840242262112900F4503F /* smoki.mp3 in Resources */,
 				7C68400922620DC000F4503F /* yogurt.mp3 in Resources */,
 				7C683F4A2261FD2000F4503F /* hairbrush.mp3 in Resources */,
 				7C683FCA2261FF8F00F4503F /* popcorn.mp3 in Resources */,
