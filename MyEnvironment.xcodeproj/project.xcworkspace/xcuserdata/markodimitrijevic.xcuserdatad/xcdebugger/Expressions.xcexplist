@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ItemsCVC.screenSwiped(_:):ItemsCVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsCVC.selectedIndex.didset:ItemsCVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

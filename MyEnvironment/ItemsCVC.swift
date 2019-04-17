@@ -22,6 +22,10 @@ class ItemsCVC: UICollectionViewController {
         }
     }
     
+    private var groupItems: [Item] {
+        return dataProvider.groupItems
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(screenSwiped))
@@ -34,18 +38,21 @@ class ItemsCVC: UICollectionViewController {
     
     @objc func screenSwiped(_ recognizer: UISwipeGestureRecognizer) {
         
-        if selectedIndex == 0 && recognizer.direction == .right {
-            return
+        if recognizer.direction == .left {
+            if selectedIndex == groupItems.count - 1 {
+                selectedIndex = 0
+            } else {
+                selectedIndex += 1
+            }
         }
-        if selectedIndex == items.count - 1 && recognizer.direction == .left {
-            return
+        if recognizer.direction == .right {
+            if selectedIndex == 0 {
+                selectedIndex = groupItems.count - 1
+            } else {
+                selectedIndex -= 1
+            }
         }
         
-        if recognizer.direction == .left {
-            selectedIndex += 1
-        } else {
-            selectedIndex -= 1
-        }
     }
     
     // MARK: UICollectionViewDataSource

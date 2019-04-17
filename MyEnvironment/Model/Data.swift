@@ -9,9 +9,10 @@
 import Foundation
 
 struct RawDataModel {
-    let groupNames = ["Food", "Clothes", "Shoes", "Drinks",
+    let groupNames = ["Food", "Drinks", "Clothes", "Shoes",
                       "Things", "Schoolequipment", "Bathroom", "Kitchen",
-                      "Animals", "Transport", "Activities", "Rewards"]
+                      "Animals", "Transport", "Activities", "Rewards",
+                      "Numbers"]
     
     var categories: [String: [String]] = [
         "Food": ["fruits", "jede", "kindermaxi", "cake",
@@ -61,8 +62,9 @@ struct RawDataModel {
         
         "Animals": ["dog", "cat", "horse", "rabbit",
                     "rooster", "chicken", "cow", "goat",
-                    "sheep", "bear", "monkey", "mouse", "bird"]
+                    "sheep", "bear", "monkey", "mouse", "bird"],
         
+        "Numbers": ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
         
     ]
     // ... implement me.... //
