@@ -23,7 +23,9 @@ func playSound(name: String, ext: String = "mp3") {
         
         soundPlayer = try AVAudioPlayer(contentsOf: url!, fileTypeHint: AVFileType.mp3.rawValue)
         
-        guard let player = soundPlayer else { return }
+        guard let player = soundPlayer else {
+            return
+        }
         
         player.play()
         

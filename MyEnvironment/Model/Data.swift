@@ -58,7 +58,8 @@ struct RawDataModel {
         
         "Rewards": ["car", "cartoons", "grisine", "handcream",
                     "juice", "jumpingball", "mobilegames", "music",
-                    "plastelin", "popcorn", "scotchtape", "smoki"],
+                    "plastelin", "popcorn", "scotchtape", "smoki",
+                    "pool", "kindergarden", "trotinet", "ljuljaska"],
         
         "Animals": ["dog", "cat", "horse", "rabbit",
                     "rooster", "chicken", "cow", "goat",

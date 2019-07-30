@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7C32225B226523A00042FA3B /* cookies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C3222592265239F0042FA3B /* cookies.mp3 */; };
 		7C32225C226523A00042FA3B /* spagetthi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C32225A2265239F0042FA3B /* spagetthi.mp3 */; };
+		7C4276D222F0D5C0000C24DF /* ljuljaska.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276CF22F0D5BF000C24DF /* ljuljaska.m4a */; };
+		7C4276D322F0D5C0000C24DF /* pool.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276D022F0D5BF000C24DF /* pool.m4a */; };
+		7C4276D422F0D5C0000C24DF /* kindergarden.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276D122F0D5BF000C24DF /* kindergarden.m4a */; };
 		7C683EC32261FC9000F4503F /* Drinks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C683EB72261FC8F00F4503F /* Drinks.mp3 */; };
 		7C683EC42261FC9000F4503F /* Schoolequipment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C683EB82261FC8F00F4503F /* Schoolequipment.mp3 */; };
 		7C683EC52261FC9000F4503F /* Bathroom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C683EB92261FC8F00F4503F /* Bathroom.mp3 */; };
@@ -181,6 +184,9 @@
 /* Begin PBXFileReference section */
 		7C3222592265239F0042FA3B /* cookies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cookies.mp3; sourceTree = "<group>"; };
 		7C32225A2265239F0042FA3B /* spagetthi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spagetthi.mp3; sourceTree = "<group>"; };
+		7C4276CF22F0D5BF000C24DF /* ljuljaska.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ljuljaska.m4a; sourceTree = "<group>"; };
+		7C4276D022F0D5BF000C24DF /* pool.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pool.m4a; sourceTree = "<group>"; };
+		7C4276D122F0D5BF000C24DF /* kindergarden.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kindergarden.m4a; sourceTree = "<group>"; };
 		7C683EB72261FC8F00F4503F /* Drinks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drinks.mp3; sourceTree = "<group>"; };
 		7C683EB82261FC8F00F4503F /* Schoolequipment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Schoolequipment.mp3; sourceTree = "<group>"; };
 		7C683EB92261FC8F00F4503F /* Bathroom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bathroom.mp3; sourceTree = "<group>"; };
@@ -514,6 +520,9 @@
 				7C683FBA2261FF8F00F4503F /* scotchtape.mp3 */,
 				7C683FBB2261FF8F00F4503F /* handcream.mp3 */,
 				7C683FBC2261FF8F00F4503F /* grisine.mp3 */,
+				7C4276D122F0D5BF000C24DF /* kindergarden.m4a */,
+				7C4276CF22F0D5BF000C24DF /* ljuljaska.m4a */,
+				7C4276D022F0D5BF000C24DF /* pool.m4a */,
 				7C683FBD2261FF8F00F4503F /* juice.mp3 */,
 				7C683FBE2261FF8F00F4503F /* plastelin.mp3 */,
 				7C683FBF2261FF8F00F4503F /* cartoons.mp3 */,
@@ -810,6 +819,7 @@
 				7C68400722620DC000F4503F /* cocacola.mp3 in Resources */,
 				7C683EC92261FC9000F4503F /* Clothes.mp3 in Resources */,
 				7C68401122620DC000F4503F /* water.mp3 in Resources */,
+				7C4276D422F0D5C0000C24DF /* kindergarden.m4a in Resources */,
 				7C683EC42261FC9000F4503F /* Schoolequipment.mp3 in Resources */,
 				7C683F112261FCF500F4503F /* sleepers.mp3 in Resources */,
 				7C683ECC2261FC9000F4503F /* Activities.mp3 in Resources */,
@@ -826,6 +836,7 @@
 				7C683F892261FF6600F4503F /* readingbook.mp3 in Resources */,
 				7C683F052261FCF500F4503F /* pencil.mp3 in Resources */,
 				7C68400F22620DC000F4503F /* coffie.mp3 in Resources */,
+				7C4276D322F0D5C0000C24DF /* pool.m4a in Resources */,
 				7C683F0A2261FCF500F4503F /* rubber.mp3 in Resources */,
 				7C6840282262112900F4503F /* frenchfries.m4a in Resources */,
 				7C683F8E2261FF6600F4503F /* ridingbike.mp3 in Resources */,
@@ -840,6 +851,7 @@
 				7C683F9C2261FF6600F4503F /* cow.mp3 in Resources */,
 				7C683F5C2261FD2000F4503F /* cooker.mp3 in Resources */,
 				7C683F8F2261FF6600F4503F /* playingbasketball.mp3 in Resources */,
+				7C4276D222F0D5C0000C24DF /* ljuljaska.m4a in Resources */,
 				7C683FE5226205EB00F4503F /* pijamas.mp3 in Resources */,
 				7C683FC42261FF8F00F4503F /* scotchtape.mp3 in Resources */,
 				7C683F972261FF6600F4503F /* goat.mp3 in Resources */,
