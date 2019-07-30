@@ -12,6 +12,16 @@
 		7C4276D222F0D5C0000C24DF /* ljuljaska.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276CF22F0D5BF000C24DF /* ljuljaska.m4a */; };
 		7C4276D322F0D5C0000C24DF /* pool.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276D022F0D5BF000C24DF /* pool.m4a */; };
 		7C4276D422F0D5C0000C24DF /* kindergarden.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276D122F0D5BF000C24DF /* kindergarden.m4a */; };
+		7C4276E722F0E089000C24DF /* six.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276DF22F0E086000C24DF /* six.mp3 */; };
+		7C4276E822F0E089000C24DF /* eight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276E022F0E086000C24DF /* eight.mp3 */; };
+		7C4276E922F0E089000C24DF /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276E122F0E087000C24DF /* three.mp3 */; };
+		7C4276EA22F0E089000C24DF /* five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276E222F0E088000C24DF /* five.mp3 */; };
+		7C4276EB22F0E089000C24DF /* four.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276E322F0E088000C24DF /* four.mp3 */; };
+		7C4276EC22F0E089000C24DF /* two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276E422F0E088000C24DF /* two.mp3 */; };
+		7C4276ED22F0E089000C24DF /* one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276E522F0E089000C24DF /* one.mp3 */; };
+		7C4276EE22F0E089000C24DF /* seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276E622F0E089000C24DF /* seven.mp3 */; };
+		7C4276F222F0E20A000C24DF /* Numbers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276F122F0E20A000C24DF /* Numbers.mp3 */; };
+		7C4276F422F0E212000C24DF /* nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C4276F322F0E212000C24DF /* nine.mp3 */; };
 		7C683EC32261FC9000F4503F /* Drinks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C683EB72261FC8F00F4503F /* Drinks.mp3 */; };
 		7C683EC42261FC9000F4503F /* Schoolequipment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C683EB82261FC8F00F4503F /* Schoolequipment.mp3 */; };
 		7C683EC52261FC9000F4503F /* Bathroom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7C683EB92261FC8F00F4503F /* Bathroom.mp3 */; };
@@ -187,6 +197,16 @@
 		7C4276CF22F0D5BF000C24DF /* ljuljaska.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ljuljaska.m4a; sourceTree = "<group>"; };
 		7C4276D022F0D5BF000C24DF /* pool.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pool.m4a; sourceTree = "<group>"; };
 		7C4276D122F0D5BF000C24DF /* kindergarden.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kindergarden.m4a; sourceTree = "<group>"; };
+		7C4276DF22F0E086000C24DF /* six.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = six.mp3; sourceTree = "<group>"; };
+		7C4276E022F0E086000C24DF /* eight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eight.mp3; sourceTree = "<group>"; };
+		7C4276E122F0E087000C24DF /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = three.mp3; sourceTree = "<group>"; };
+		7C4276E222F0E088000C24DF /* five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = five.mp3; sourceTree = "<group>"; };
+		7C4276E322F0E088000C24DF /* four.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = four.mp3; sourceTree = "<group>"; };
+		7C4276E422F0E088000C24DF /* two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = two.mp3; sourceTree = "<group>"; };
+		7C4276E522F0E089000C24DF /* one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = one.mp3; sourceTree = "<group>"; };
+		7C4276E622F0E089000C24DF /* seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seven.mp3; sourceTree = "<group>"; };
+		7C4276F122F0E20A000C24DF /* Numbers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Numbers.mp3; sourceTree = "<group>"; };
+		7C4276F322F0E212000C24DF /* nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nine.mp3; sourceTree = "<group>"; };
 		7C683EB72261FC8F00F4503F /* Drinks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drinks.mp3; sourceTree = "<group>"; };
 		7C683EB82261FC8F00F4503F /* Schoolequipment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Schoolequipment.mp3; sourceTree = "<group>"; };
 		7C683EB92261FC8F00F4503F /* Bathroom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bathroom.mp3; sourceTree = "<group>"; };
@@ -369,6 +389,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C4276D522F0DBC8000C24DF /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				7C4276E022F0E086000C24DF /* eight.mp3 */,
+				7C4276E222F0E088000C24DF /* five.mp3 */,
+				7C4276E322F0E088000C24DF /* four.mp3 */,
+				7C4276E522F0E089000C24DF /* one.mp3 */,
+				7C4276E622F0E089000C24DF /* seven.mp3 */,
+				7C4276DF22F0E086000C24DF /* six.mp3 */,
+				7C4276E122F0E087000C24DF /* three.mp3 */,
+				7C4276E422F0E088000C24DF /* two.mp3 */,
+				7C4276F322F0E212000C24DF /* nine.mp3 */,
+			);
+			path = Numbers;
+			sourceTree = "<group>";
+		};
 		7C683EE82261FCF500F4503F /* Schoolequipment  */ = {
 			isa = PBXGroup;
 			children = (
@@ -651,6 +687,7 @@
 				7C683EE82261FCF500F4503F /* Schoolequipment  */,
 				7C683EF42261FCF500F4503F /* Shoes */,
 				7C683EF92261FCF500F4503F /* Things */,
+				7C4276D522F0DBC8000C24DF /* Numbers */,
 				7C683F1F2261FD2000F4503F /* Bathroom */,
 				7C683F2C2261FD2000F4503F /* Kitchen */,
 				7C683F3A2261FD2000F4503F /* Transport */,
@@ -671,6 +708,7 @@
 				7C683EC12261FC8F00F4503F /* Kitchen.mp3 */,
 				7C683EC22261FC9000F4503F /* Rewards.mp3 */,
 				7C683EB82261FC8F00F4503F /* Schoolequipment.mp3 */,
+				7C4276F122F0E20A000C24DF /* Numbers.mp3 */,
 				7C683EBE2261FC8F00F4503F /* Things.mp3 */,
 				7C683EBB2261FC8F00F4503F /* Transport.mp3 */,
 			);
@@ -795,6 +833,7 @@
 				7C683F962261FF6600F4503F /* bear.mp3 in Resources */,
 				7C683F992261FF6600F4503F /* rooster.mp3 in Resources */,
 				7C683F612261FD2000F4503F /* trotinet.mp3 in Resources */,
+				7C4276E722F0E089000C24DF /* six.mp3 in Resources */,
 				7C68405222621D3500F4503F /* Shoes.mp3 in Resources */,
 				7C683FCB2261FF8F00F4503F /* music.mp3 in Resources */,
 				7C68401022620DC000F4503F /* nestea.mp3 in Resources */,
@@ -822,6 +861,7 @@
 				7C4276D422F0D5C0000C24DF /* kindergarden.m4a in Resources */,
 				7C683EC42261FC9000F4503F /* Schoolequipment.mp3 in Resources */,
 				7C683F112261FCF500F4503F /* sleepers.mp3 in Resources */,
+				7C4276EE22F0E089000C24DF /* seven.mp3 in Resources */,
 				7C683ECC2261FC9000F4503F /* Activities.mp3 in Resources */,
 				7C683F5D2261FD2000F4503F /* bowl.mp3 in Resources */,
 				7C683EC32261FC9000F4503F /* Drinks.mp3 in Resources */,
@@ -831,9 +871,12 @@
 				7C683F882261FF6600F4503F /* toyplaying.mp3 in Resources */,
 				7C683F082261FCF500F4503F /* flomaster.mp3 in Resources */,
 				7C683F1E2261FCF500F4503F /* desk.mp3 in Resources */,
+				7C4276F422F0E212000C24DF /* nine.mp3 in Resources */,
 				7C683F942261FF6600F4503F /* monkey.mp3 in Resources */,
 				7C683FC82261FF8F00F4503F /* plastelin.mp3 in Resources */,
 				7C683F892261FF6600F4503F /* readingbook.mp3 in Resources */,
+				7C4276E822F0E089000C24DF /* eight.mp3 in Resources */,
+				7C4276EB22F0E089000C24DF /* four.mp3 in Resources */,
 				7C683F052261FCF500F4503F /* pencil.mp3 in Resources */,
 				7C68400F22620DC000F4503F /* coffie.mp3 in Resources */,
 				7C4276D322F0D5C0000C24DF /* pool.m4a in Resources */,
@@ -861,6 +904,7 @@
 				7C6840202262112900F4503F /* sandwich.m4a in Resources */,
 				7C683F492261FD2000F4503F /* toothpaste.mp3 in Resources */,
 				7C68400C22620DC000F4503F /* milk.mp3 in Resources */,
+				7C4276EA22F0E089000C24DF /* five.mp3 in Resources */,
 				7C6840442262115200F4503F /* soda.m4a in Resources */,
 				7C683F142261FCF500F4503F /* computer.mp3 in Resources */,
 				7C683F9E2261FF6600F4503F /* horse.mp3 in Resources */,
@@ -871,6 +915,7 @@
 				7C683F102261FCF500F4503F /* sandals.mp3 in Resources */,
 				7C683F642261FD2000F4503F /* motorbike.mp3 in Resources */,
 				7C683FE3226205EB00F4503F /* jacket.mp3 in Resources */,
+				7C4276E922F0E089000C24DF /* three.mp3 in Resources */,
 				7C683F4E2261FD2000F4503F /* towel.mp3 in Resources */,
 				7C32225C226523A00042FA3B /* spagetthi.mp3 in Resources */,
 				7C683ECD2261FC9000F4503F /* Kitchen.mp3 in Resources */,
@@ -895,6 +940,8 @@
 				7C683F542261FD2000F4503F /* glass.mp3 in Resources */,
 				7C683F562261FD2000F4503F /* fork.mp3 in Resources */,
 				7C683F062261FCF500F4503F /* acrylicpaint.mp3 in Resources */,
+				7C4276F222F0E20A000C24DF /* Numbers.mp3 in Resources */,
+				7C4276ED22F0E089000C24DF /* one.mp3 in Resources */,
 				7C683FF422620D8F00F4503F /* cake.mp3 in Resources */,
 				7C683F692261FD2000F4503F /* plane.mp3 in Resources */,
 				7C683FF522620D8F00F4503F /* ribice.mp3 in Resources */,
@@ -917,6 +964,7 @@
 				7C683F5F2261FD2000F4503F /* spoon.mp3 in Resources */,
 				7C683FC52261FF8F00F4503F /* handcream.mp3 in Resources */,
 				7C683FF322620D8F00F4503F /* banana.mp3 in Resources */,
+				7C4276EC22F0E089000C24DF /* two.mp3 in Resources */,
 				7C683F592261FD2000F4503F /* cup.mp3 in Resources */,
 				7C683F0D2261FCF500F4503F /* scissors.mp3 in Resources */,
 				7C683F152261FCF500F4503F /* shelf.mp3 in Resources */,
