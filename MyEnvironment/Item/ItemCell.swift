@@ -31,8 +31,10 @@ class ItemCell: UICollectionViewCell {
     
     private func addDoubleTapGesture() {
         //let gesture = UIGestureRecognizer.init(target: self, action: #selector(doubleTapGestureRegistered))
+//        let gesture = UITapGestureRecognizer.init(target: self, action: #selector(doubleTapGestureRegistered))
+//        gesture.numberOfTapsRequired = 2
         let gesture = UITapGestureRecognizer.init(target: self, action: #selector(doubleTapGestureRegistered))
-        gesture.numberOfTapsRequired = 2
+        gesture.numberOfTouchesRequired = 2
         self.addGestureRecognizer(gesture)
     }
     
