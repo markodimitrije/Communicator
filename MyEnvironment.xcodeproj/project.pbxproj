@@ -389,6 +389,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C20BAF623904E1B0079E549 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB340F224FCEF600608571 /* GroupsCVC.swift */,
+				ADDB3413224FE84400608571 /* ItemCell.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
 		7C4276D522F0DBC8000C24DF /* Numbers */ = {
 			isa = PBXGroup;
 			children = (
@@ -633,13 +642,12 @@
 		ADDB33FA224FCCD500608571 /* MyEnvironment */ = {
 			isa = PBXGroup;
 			children = (
+				7C20BAF623904E1B0079E549 /* Item */,
 				ADDB34242250BBE800608571 /* Sounds_Assets */,
 				ADDB341F2250AF3900608571 /* Sound */,
 				ADDB341C224FF03300608571 /* Global */,
-				ADDB3413224FE84400608571 /* ItemCell.swift */,
 				ADDB33FB224FCCD500608571 /* AppDelegate.swift */,
 				ADDB33FF224FCCD500608571 /* Main.storyboard */,
-				ADDB340F224FCEF600608571 /* GroupsCVC.swift */,
 				ADDB34572251212800608571 /* Assets.xcassets */,
 				ADDB341A224FEE3E00608571 /* ItemsCVC.swift */,
 				ADDB3417224FEB8E00608571 /* Model */,
